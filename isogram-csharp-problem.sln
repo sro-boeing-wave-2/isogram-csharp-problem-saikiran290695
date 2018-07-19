@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "isogram-csharp-problem", "isogram-csharp-problem\isogram-csharp-problem.csproj", "{3AFB1FF1-5E4C-486B-A030-F1FEA6345197}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "isogram-csharp-problem", "isogram-csharp-problem\isogram-csharp-problem.csproj", "{7255052D-8BAA-4EBB-863A-BEEA142A66DB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Isogram", "Isogram.Tests\Isogram.csproj", "{3E1BB22D-D5F6-40A3-92AE-2E1B416816A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isogram.Tests", "Isogram.Tests\Isogram.Tests.csproj", "{D2B7D342-4295-4306-86EB-E97DF78B2094}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3AFB1FF1-5E4C-486B-A030-F1FEA6345197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AFB1FF1-5E4C-486B-A030-F1FEA6345197}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3AFB1FF1-5E4C-486B-A030-F1FEA6345197}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3AFB1FF1-5E4C-486B-A030-F1FEA6345197}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E1BB22D-D5F6-40A3-92AE-2E1B416816A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E1BB22D-D5F6-40A3-92AE-2E1B416816A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E1BB22D-D5F6-40A3-92AE-2E1B416816A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E1BB22D-D5F6-40A3-92AE-2E1B416816A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7255052D-8BAA-4EBB-863A-BEEA142A66DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7255052D-8BAA-4EBB-863A-BEEA142A66DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7255052D-8BAA-4EBB-863A-BEEA142A66DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7255052D-8BAA-4EBB-863A-BEEA142A66DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B7D342-4295-4306-86EB-E97DF78B2094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B7D342-4295-4306-86EB-E97DF78B2094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B7D342-4295-4306-86EB-E97DF78B2094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B7D342-4295-4306-86EB-E97DF78B2094}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EF4D8FEE-2990-4BAD-BC42-028E291B5CF5}
+		SolutionGuid = {729A257D-BE50-4156-9E32-E250A65E1D2A}
 	EndGlobalSection
 EndGlobal
