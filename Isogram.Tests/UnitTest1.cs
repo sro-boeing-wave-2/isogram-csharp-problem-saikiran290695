@@ -1,51 +1,50 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using Xunit;
 using Isogram;
 
 namespace Isogram.Tests
 {
-    [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
-        public void TestMethod1()
+        [Fact]
+        public void Fact1()
         {
-            Assert.AreEqual(true, IsogramClass.IsogramMethod(""));
+            Assert.True(IsogramClass.IsogramMethod(""));
         }
-        [TestMethod]
-        public void TestMethod2()
+        [Fact]
+        public void Fact2()
         {
-            Assert.AreEqual(true, IsogramClass.IsogramMethod("isogram"));
+            Assert.True(IsogramClass.IsogramMethod("isogram"));
         }
-        [TestMethod]
-        public void TestMethod3()
+        [Fact]
+        public void Fact3()
         {
-            Assert.AreEqual(false, IsogramClass.IsogramMethod("eleven"));
+            Assert.False(IsogramClass.IsogramMethod("eleven"));
         }
-        [TestMethod]
-        public void TestMethod4()
+        [Fact]
+        public void Fact4()
         {
-            Assert.AreEqual(true, IsogramClass.IsogramMethod("subdermatoglyphic"));
+            Assert.True(IsogramClass.IsogramMethod("subdermatoglyphic"));
         }
-        [TestMethod]
-        public void TestMethod5()
+        [Fact]
+        public void Fact5()
         {
-            Assert.AreEqual(true, IsogramClass.IsogramMethod("Alphabet"));
+            Assert.True(IsogramClass.IsogramMethod("Alphabet"));
         }
-        [TestMethod]
-        public void TestMethod6()
+        [Fact]
+        public void Fact6()
         {
-            Assert.AreEqual(true, IsogramClass.IsogramMethod("thumbscrew-japingly"));
+            Assert.True(IsogramClass.IsogramMethod("thumbscrew-japingly"));
         }
-        [TestMethod]
-        public void TestMethod7()
+        [Fact]
+        public void Fact7()
         {
-            Assert.AreEqual(true, IsogramClass.IsogramMethod("six-year-old"));
+            Assert.True(IsogramClass.IsogramMethod("six-year-old"));
         }
-        [TestMethod]
-        public void TestMethod8()
+        [Fact]
+        public void Fact8()
         {
-            Assert.AreEqual(false, IsogramClass.IsogramMethod("sai kiran"));
+            Assert.False(IsogramClass.IsogramMethod("sai kiran"));
         }
 
     }
