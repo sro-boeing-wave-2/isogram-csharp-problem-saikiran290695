@@ -5,7 +5,10 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "isogram-csharp-problem", "isogram-csharp-problem\isogram-csharp-problem.csproj", "{7255052D-8BAA-4EBB-863A-BEEA142A66DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isogram.Tests", "Isogram.Tests\Isogram.Tests.csproj", "{D2B7D342-4295-4306-86EB-E97DF78B2094}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Isogram.Tests", "Isogram.Tests\Isogram.Tests.csproj", "{D2B7D342-4295-4306-86EB-E97DF78B2094}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7255052D-8BAA-4EBB-863A-BEEA142A66DB} = {7255052D-8BAA-4EBB-863A-BEEA142A66DB}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
