@@ -11,13 +11,10 @@ namespace Isogram
     {
         public static bool IsogramMethod(string text)
         {
-            bool response = false;
             Regex reg = new Regex("[ -]");
-            var unique = reg.Replace(text,"").ToCharArray().Distinct();            
-            if (unique.Count() == reg.Replace(text, "").Length)
-            {
-                response = true;
-            }
+            string modText = reg.Replace(text, "");
+            var unique = modText.ToCharArray().Distinct();
+            bool response = (unique.Count() == modText.Length) ? true : false;            
             return response;
         }
     }
